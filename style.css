@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.icons div {
+  float: left;
+}
